@@ -1,0 +1,33 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-projecth-dev-cd4b9-authRole",
+      "UnauthRoleArn": "arn:aws:iam::897722674623:role/amplify-projecth-dev-cd4b9-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::897722674623:role/amplify-projecth-dev-cd4b9-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-projecth-dev-cd4b9-deployment",
+      "UnauthRoleName": "amplify-projecth-dev-cd4b9-unauthRole",
+      "StackName": "amplify-projecth-dev-cd4b9",
+      "StackId": "arn:aws:cloudformation:us-east-1:897722674623:stack/amplify-projecth-dev-cd4b9/8e49da90-dc94-11ef-86af-12178398f891",
+      "AmplifyAppId": "d2exmvn85g4xwg"
+    }
+  },
+  "api": {
+    "projecth": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  }
+}
