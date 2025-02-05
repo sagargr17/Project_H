@@ -622,7 +622,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "QuerygetTodoauth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/0224a3e5097427da3f4460b5d6d2b86ad4195c9cb8da7bc13e7187eead1c3ae3.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/cb1e410e95ac0c4a76830f4b423281e1797e6ce0632d261362555cd6c11b32e9.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -786,7 +786,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "QuerylistTodosauth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/0224a3e5097427da3f4460b5d6d2b86ad4195c9cb8da7bc13e7187eead1c3ae3.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/cb1e410e95ac0c4a76830f4b423281e1797e6ce0632d261362555cd6c11b32e9.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -970,7 +970,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "MutationcreateTodoauth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/d637c1fb7301003b8a5ada269338cf2e8df6cc0dc412ef13acc6158d680b6d3e.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/afdabcf8317693276f65d4cbfc451bfbef0b2ae27e8c97dfba63fd99bd1feb07.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -1166,7 +1166,7 @@
      "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c.vtl"
     },
     "ResponseMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/89f92efd98b1034df0e2497fe31a97de6975de554b8a22e0677d05d6efcafa59.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/1a76f814b667f7b4dc1479b0e41f8d678946de837df71bbfdba5b076436b35d6.vtl"
     }
    },
    "DependsOn": [
@@ -1344,7 +1344,7 @@
      "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c.vtl"
     },
     "ResponseMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e3416b4d47414f29c21e59a70e83bddb959ef0625854ed7fb0ca376573e99069.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/18777dbb9cb3e0e3e8e11edefdb90ee4379a669e2de34a11289e99de3166aacd.vtl"
     }
    },
    "DependsOn": [
@@ -1510,7 +1510,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "SubscriptiononCreateTodoauth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/93f379f642e28a9f80c2fbb051cc69d08dc938dcf13a8b486eb98035b9edc3c7.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -1641,7 +1641,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "SubscriptiononUpdateTodoauth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/93f379f642e28a9f80c2fbb051cc69d08dc938dcf13a8b486eb98035b9edc3c7.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -1772,7 +1772,7 @@
     "FunctionVersion": "2018-05-29",
     "Name": "SubscriptiononDeleteTodoauth0Function",
     "RequestMappingTemplateS3Location": {
-     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b.vtl"
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/93f379f642e28a9f80c2fbb051cc69d08dc938dcf13a8b486eb98035b9edc3c7.vtl"
     },
     "ResponseMappingTemplate": "$util.toJson({})"
    },
@@ -1894,7 +1894,7 @@
   "CDKMetadata": {
    "Type": "AWS::CDK::Metadata",
    "Properties": {
-    "Analytics": "v2:deflate64:H4sIAAAAAAAA/1WOwW6DMAyGn6X34A2Qdl9BO3YT7F6ZxKCUkKDYaVUh3n2CTp12+v3Jn+y/gPythPyAN860GTNnO1hOxEKmFdSjqnr/hREnEoobVMEbKzZ41RCHFDWpKrGE6Q97/5zxxufF3D1OwXTwjZ2jIzIpixMsTXAPOzhaFc4z372Gpd71uqtRsH2e/E8fyeutRBV8b4cUcW/0+9ldKa6KyzMykzC8b6G4hGPSI8lWYN3czyRzErWvW8HB+mFVPhiCC79ciwLyAl4PF7Y2i8mLnQiaR/4AoJY4dDYBAAA="
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/1WOwW6DMAyGn6X34A2Qpl1X0I7bBLtXJjEoJSQodlpViHefoFOnnX5/8if7LyB/KSE/4JUzbcbM2Q6WD2Ih0wrqUVW9/8KIEwnFDargjRUbvGqIQ4qaVJVYwvSHvX/MeOXTYm4ep2A6+MbO0RGZlMUJlia4ux0crQrnmW9ew1Lvet3VKNg+Tv6n9+T1VqIKvrdDirg3+v3sLhRXxeUJmUkY3rZQXMIx6ZFkK7Bu7meSOYna163gYP2wKh8MwZmfLsUz5K9QHM5sbRaTFzsRNPf8AROZRow2AQAA"
    },
    "Metadata": {
     "aws:cdk:path": "amplify-amplifyvitereacttemplate-office-sandbox-c2dc5b85fb/data/amplifyData/Todo/CDKMetadata/Default"
